@@ -1,0 +1,204 @@
+
+
+nav.navbar {
+  background-color: #FFD932 !important; /* Escolha a cor desejada */
+}
+
+nav.navbar .nav-link {
+  color: #000000 !important; /* Preto, por exemplo */
+}
+
+
+/* escape room_intro*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #FFFCEB;
+  color: #1a1a1a;
+  line-height: 1.6;
+  text-align: center;
+
+   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Torna o body um flex container em coluna */
+html, body {
+  height: 100%;
+}
+
+
+
+/* O main cresce para ocupar o espaço disponível */
+main {
+  flex: 1;
+}
+
+
+/* Conteúdo principal */
+.project-section {
+  padding: 20px;
+}
+
+.project-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.escape-box {
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.escape-tag {
+  background-color: #CFCFCF;
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.escape-box h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.intro-text {
+  margin-bottom: 20px;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+details p, details ul {
+  margin: 10px 0 10px 20px;
+}
+
+.start-btn {
+  display: block;
+  margin: 20px auto 0;
+  background-color: #FFDF52;
+  color: #000;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s;
+}
+
+.start-btn:hover {
+  background-color: #e6c849;
+}
+
+
+
+
+/* Centraliza o texto dos itens do dropdown */
+.dropdown-menu .dropdown-item {
+  text-align: center;
+}
+
+/* Muda a cor de fundo do menu dropdown */
+.dropdown-menu {
+  background-color: #FFDF52; /* Escolha a cor desejada */
+}
+
+/* (Opcional) Muda a cor do texto dos itens do dropdown */
+.dropdown-menu .dropdown-item {
+  color: #000; /* Preto, por exemplo */
+}
+
+/* (Opcional) Cor de fundo ao passar o mouse */
+.dropdown-menu .dropdown-item:hover, 
+.dropdown-menu .dropdown-item:focus {
+  background-color: #FFD932;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------- Footer ------------*/
+footer {
+  background-color: #FFD932;
+  padding: 2vw 5vw;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.footer-left img {
+  width: 150px;
+  height: auto;
+}
+
+.footer-center {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-slogan {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.social-icons a {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.logos img {
+  height: 40px;
+  margin: 5px 0;
+}
+
+/*------------- Footer ------------*/

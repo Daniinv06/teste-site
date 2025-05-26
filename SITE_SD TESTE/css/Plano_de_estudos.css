@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1
+{
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: rgb(0, 0, 0);
+}
+
+span
+{
+	font-size: .9rem;
+}
+
+h6
+{
+	font-size: 1.1rem;
+	color: rgb(24, 24, 49);
+}
+
+
+
+
+
+/*------------------- Reset básico -------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*------------------- Navbar -------------------*/
+nav.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #FFD932 !important;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  padding: 0;
+}
+
+.navbar .navbar-brand {
+  position: static;
+  margin-left: 16px;
+}
+
+.navbar-toggler {
+  position: static;
+  margin-left: 12px;
+}
+
+.collapse.navbar-collapse {
+  justify-content: flex-start !important;
+}
+
+.navbar-nav {
+  margin-left: 0;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-start;
+  width: auto;
+  text-align: left;
+}
+
+.navbar .nav-link {
+  color: #000 !important;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #000000 !important;
+}
+
+/* Dropdown customizado */
+.dropdown-menu {
+  background-color: #FFDF52;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #000;
+  text-align: center;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #FFD932;
+  color: #000;
+}
+
+
+
+
+
+
+/*------------- Footer ------------*/
+footer
+{
+	padding: 2vw 8vw 2vw 8vw;	
+	background-color: #FFD932;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	max-height: max-content;
+	margin: 0;
+	
+}
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Footer normal, sem position: fixed */
+footer {
+  /* ...seus estilos existentes... */
+  margin-top: max-content; /* Espaço entre os cards e o footer */
+}
+
+
+footer .footer-col
+{
+	padding-bottom: 50px;
+}
+
+footer h3
+{
+	color: rgb(0, 0, 0);
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+
+footer li
+{
+	list-style: none;
+	color: #000000;
+	padding: 10px 0;
+	font-size: 15px;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+footer li:hover
+{
+	color: rgb(0, 0, 0);
+}
+
+footer p
+{
+	color: #000000;
+}
+
+footer .subscribe
+{
+	margin-top: 20px;
+}
+
+footer input
+{
+	width: 220px;
+	padding: 15px 12px;
+	background: #000000;
+	border: none;
+	outline: none;
+	color: #fff;
+}
+
+footer .subscribe a
+{
+	text-decoration: none;
+	font-size: 0.9rem;
+	padding: 12px 15px;
+	background-color: #fff;
+	font-weight: 600;
+}
+
+footer .subscribe a.yellow
+{
+	color: #fff;
+	background: #ffbb00;
+	transition: 0.3s ease;
+}
+
+footer .subscribe a.yellow:hover
+{
+	color: rgb(0, 0, 0);
+	background: #fff;
+}
+
+footer .copyright
+{
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+footer .copyright p, footer .copyright p > a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer .copyright .pro-links
+{
+	margin-top: 0px;
+}
+
+footer .copyright .pro-links i
+{
+	background-color: #000000;
+	color: #fff;
+}
+
+footer .copyright .pro-links i:hover
+{
+	background: #ffbb00;
+	color: #2c2c2c;
+}
+
+
+
+
+.footer-images {
+  display: flex;
+  justify-content: flex-start;  /* Alinha à esquerda */
+  gap: 40px;                    /* Mais espaço entre imagens */
+  margin-top: 20px;
+}
+
+.footer-images img {
+  width: 10px;                 /* Tamanho maior */
+  height: auto;
+  object-fit: contain;
+}
+
+.img-pc {
+  width: 270px;       /* ou outro valor como 150px, 200px */
+  height: auto;       /* mantém a proporção da imagem */
+  bottom: 10px;
+  left: 10px;
+}
+
+.img-prr {
+  width: 500px;       /* ajusta como precisares */
+  height: auto;
+  margin-left: 100px;
+}
+
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+  background-color: #000;
+  border-radius: 6px;
+  transition: background 0.3s, color 0.3s;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.social-icons a:first-child {
+  margin-left: 0;
+}
+
+.social-icons a:hover {
+  background: #ffbb00;
+  color: #000000;
+}
+
+/*------------- Footer ------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PLANOS DE ESTUDO */
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #000000;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #000000;
+    }
+
+    .year {
+      margin-bottom: 1.5rem;
+      background-color: #ffffff;
+      padding: 1rem 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .year-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .year h2 {
+      margin: 0;
+      color: #000000;
+    }
+
+    .toggle-btn {
+	background-color: #000000;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+      font-size: 1.2rem;
+    }
+
+    .toggle-btn:hover {
+	background-color: #FFD932;
+    }
+
+    .content {
+      margin-top: 1rem;
+      display: none;
+    }
+
+    .semester h3 {
+      color: #000000;
+      margin-bottom: 0.5rem;
+    }
+
+    .semester ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .semester li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.4rem;
+      padding: 0.3rem 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .ects {
+      font-weight: bold;
+      color: #000000;
+      margin-left: 1rem;
+    }
+
+.container {
+  padding-top: 100px;
+}
+
+
